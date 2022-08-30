@@ -1,0 +1,41 @@
+Git Commands:
+	⁃	pwd: Print Working Directory
+	⁃	ls: Lists all the files at current directory.
+	⁃	ls -la : List files including hidden ones. ( Başında . olanlar gizli klasörler )
+	⁃	cd: Change Directory - cd Desktop ( Case Sensitive )
+	⁃	cd .. Bir üst directory’e döner.
+	⁃	clear: Clear the terminal screen
+	⁃	ifconfig: InterFace Config -- Arayüzlerin ayarlarını gösterir
+	⁃	rm <filename> : Directly removes the file.
+	⁃	mkdir <filename> : Make Directory — Yeni klasör oluşturur
+	
+	▪	touch <filename>.<extension> : Creates new item with desired extension
+	▪	open <filename> : Dosyayı ayrı pencerede açar
+	▪	nano <filename> : Dosyayı terminal ekranında açar
+	▪	cat <filename> : Dosyayı açmadan içerisinde ne olduğunu print eder.
+
+	✓	git init: Bulunduğun klasör içerisinde terminale yazdığında o klasör için versiyon kontrol takibini başlatır.
+	✓	.gitignore: Git’e yüklememen gereken dosyaların bulunduğu liste. 
+	✓	API’ler, Sunucu bilgileri vs gibi bilgileri kesinlikle gitignore kullanmalısın.
+	✓	git add <filename> : Versiyon kontrolüne eklemek istediğin istediğin dosyayı bu komut ile ekleyebilirsin. Dosya Stage’ye alınır ve commit’e hazır bir şekilde bekler.
+	✓	git add . : Klasör içerisindeki tüm dosyaları versiyon kontrolüne ekler.
+	✓	git commit -m “<message>” : Stage’ye aldığın ve önceden takipte olunan tüm dosyaların güncel hâllerini message kısmına yazacağın açıklama mesajıyla commit eder.
+	✓	git log: Geçmişte yapılmış tüm commitleri gösterir.
+	✓	git diff: Bir önceki commit ile commit etmediğin ama değiştirdiğin şeylerin farkını gösterir
+	✓	git checkout <filename> : Belirtilen dosyayı bir önceki commit’e geri döndürür
+	✓	git rm —cached <filename> : Belirtilen dosyayı Stage’den kaldırır.
+	✓	git rm —cached -r . : Klasördeki tüm dosyaları stage’den kaldırır
+	✓	git clone <git linki> : Projeyi klonlayıp kendi bilgisayarında bulunduğun yere indirir.
+
+
+10.7 BRANCH: 
+	⁃	git branch: Tüm branchleri ve hangi branch’te bulunduğunu gösterir
+	
+	Birden fazla branch’teki ilerlemeleri paralel bir şekilde ilerletebiliyoruz. Ağacın dalları gibi. Sonrasında tekrar birleştirebiliyorsun.
+		örn: İki farklı kişi aynı proje üzerinde çalışıyor ama farklı yerlerini geliştiriyorsa.
+Tek başına aynı proje içerisinde birden fazla farklı şey denemek istiyorsan…
+
+	⁃	git merge: Branch’leri birleştirip birbirine eklemeyi sağlar.
+kullanım: master branch’te iken “git merge test-branch” yazarsan test-branch’teki farklılıkları master branch’e ekler.
+
+10.9 FORK:
