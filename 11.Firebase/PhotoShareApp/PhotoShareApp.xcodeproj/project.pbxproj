@@ -14,6 +14,8 @@
 		9D6D264128C6083A00B4F99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D263F28C6083A00B4F99D /* Main.storyboard */; };
 		9D6D264328C6083B00B4F99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D264228C6083B00B4F99D /* Assets.xcassets */; };
 		9D6D264628C6083B00B4F99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D264428C6083B00B4F99D /* LaunchScreen.storyboard */; };
+		9DB924C928C7698A007F6DDA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB924C828C7698A007F6DDA /* FeedCell.swift */; };
+		9DB924CB28C7941F007F6DDA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB924CA28C7941F007F6DDA /* Post.swift */; };
 		9DD9786F28C622D200873CC1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9786E28C622D200873CC1 /* FeedViewController.swift */; };
 		9DD9787128C622E800873CC1 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9787028C622E800873CC1 /* UploadViewController.swift */; };
 		9DD9787328C622F100873CC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9787228C622F100873CC1 /* SettingsViewController.swift */; };
@@ -30,6 +32,8 @@
 		9D6D264228C6083B00B4F99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D6D264528C6083B00B4F99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D6D264728C6083B00B4F99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB924C828C7698A007F6DDA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		9DB924CA28C7941F007F6DDA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9DD9786E28C622D200873CC1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9DD9787028C622E800873CC1 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		9DD9787228C622F100873CC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -85,12 +89,14 @@
 				9D6D263D28C6083A00B4F99D /* ViewController.swift */,
 				9D6D263F28C6083A00B4F99D /* Main.storyboard */,
 				9DD9786E28C622D200873CC1 /* FeedViewController.swift */,
+				9DB924CA28C7941F007F6DDA /* Post.swift */,
 				9DD9787028C622E800873CC1 /* UploadViewController.swift */,
 				9DD9787228C622F100873CC1 /* SettingsViewController.swift */,
 				9D6D264228C6083B00B4F99D /* Assets.xcassets */,
 				9D6D264428C6083B00B4F99D /* LaunchScreen.storyboard */,
 				9D6D264728C6083B00B4F99D /* Info.plist */,
 				9D09FB4228C60B0000374716 /* GoogleService-Info.plist */,
+				9DB924C828C7698A007F6DDA /* FeedCell.swift */,
 			);
 			path = PhotoShareApp;
 			sourceTree = "<group>";
@@ -219,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB924C928C7698A007F6DDA /* FeedCell.swift in Sources */,
 				9D6D263E28C6083A00B4F99D /* ViewController.swift in Sources */,
 				9DD9787128C622E800873CC1 /* UploadViewController.swift in Sources */,
+				9DB924CB28C7941F007F6DDA /* Post.swift in Sources */,
 				9D6D263A28C6083A00B4F99D /* AppDelegate.swift in Sources */,
 				9DD9786F28C622D200873CC1 /* FeedViewController.swift in Sources */,
 				9D6D263C28C6083A00B4F99D /* SceneDelegate.swift in Sources */,
