@@ -42,7 +42,6 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         photoImageView.image = info[.editedImage] as? UIImage
         self.dismiss(animated: true)
-        
     }
     
     

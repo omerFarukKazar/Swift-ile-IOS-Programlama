@@ -7,31 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D20E03828C50F2100FE4330 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20E03728C50F2100FE4330 /* TableViewController.swift */; };
-		9DA5583A28C269E3009676AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5583928C269E3009676AE /* AppDelegate.swift */; };
-		9DA5583C28C269E3009676AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5583B28C269E3009676AE /* SceneDelegate.swift */; };
-		9DA5583E28C269E3009676AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5583D28C269E3009676AE /* MapViewController.swift */; };
-		9DA5584128C269E3009676AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5583F28C269E3009676AE /* Main.storyboard */; };
-		9DA5584428C269E3009676AE /* MapsApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5584228C269E3009676AE /* MapsApplication.xcdatamodeld */; };
-		9DA5584628C269E7009676AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5584528C269E7009676AE /* Assets.xcassets */; };
-		9DA5584928C269E7009676AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5584728C269E7009676AE /* LaunchScreen.storyboard */; };
+		9DA8355528C888D700B366A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8355428C888D700B366A2 /* AppDelegate.swift */; };
+		9DA8355728C888D700B366A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8355628C888D700B366A2 /* SceneDelegate.swift */; };
+		9DA8355928C888D700B366A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8355828C888D700B366A2 /* ViewController.swift */; };
+		9DA8355C28C888D700B366A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8355A28C888D700B366A2 /* Main.storyboard */; };
+		9DA8355E28C888D800B366A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8355D28C888D800B366A2 /* Assets.xcassets */; };
+		9DA8356128C888D800B366A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8355F28C888D800B366A2 /* LaunchScreen.storyboard */; };
+		9DA8356928C88A1A00B366A2 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8356828C88A1A00B366A2 /* NewsCell.swift */; };
+		9DA8356F28C8944800B366A2 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8356E28C8944800B366A2 /* News.swift */; };
+		9DA8357128C8975C00B366A2 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8357028C8975C00B366A2 /* WebService.swift */; };
+		9DA8357328C89C7700B366A2 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8357228C89C7700B366A2 /* NewsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D20E03728C50F2100FE4330 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		9DA5583628C269E3009676AE /* MapsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DA5583928C269E3009676AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DA5583B28C269E3009676AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DA5583D28C269E3009676AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		9DA5584028C269E3009676AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DA5584328C269E3009676AE /* MapsApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapsApplication.xcdatamodel; sourceTree = "<group>"; };
-		9DA5584528C269E7009676AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DA5584828C269E7009676AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9DA5584A28C269E7009676AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA8355128C888D700B366A2 /* NewsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA8355428C888D700B366A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DA8355628C888D700B366A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DA8355828C888D700B366A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DA8355B28C888D700B366A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA8355D28C888D800B366A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA8356028C888D800B366A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA8356228C888D800B366A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA8356828C88A1A00B366A2 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		9DA8356E28C8944800B366A2 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		9DA8357028C8975C00B366A2 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		9DA8357228C89C7700B366A2 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DA5583328C269E3009676AE /* Frameworks */ = {
+		9DA8354E28C888D700B366A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +45,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DA5582D28C269E3009676AE = {
+		9DA8354828C888D700B366A2 = {
 			isa = PBXGroup;
 			children = (
-				9DA5583828C269E3009676AE /* MapsApplication */,
-				9DA5583728C269E3009676AE /* Products */,
+				9DA8355328C888D700B366A2 /* NewsProject */,
+				9DA8355228C888D700B366A2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9DA5583728C269E3009676AE /* Products */ = {
+		9DA8355228C888D700B366A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DA5583628C269E3009676AE /* MapsApplication.app */,
+				9DA8355128C888D700B366A2 /* NewsProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DA5583828C269E3009676AE /* MapsApplication */ = {
+		9DA8355328C888D700B366A2 /* NewsProject */ = {
 			isa = PBXGroup;
 			children = (
-				9DA5583928C269E3009676AE /* AppDelegate.swift */,
-				9DA5583B28C269E3009676AE /* SceneDelegate.swift */,
-				9DA5583D28C269E3009676AE /* MapViewController.swift */,
-				9DA5583F28C269E3009676AE /* Main.storyboard */,
-				9D20E03728C50F2100FE4330 /* TableViewController.swift */,
-				9DA5584528C269E7009676AE /* Assets.xcassets */,
-				9DA5584728C269E7009676AE /* LaunchScreen.storyboard */,
-				9DA5584A28C269E7009676AE /* Info.plist */,
-				9DA5584228C269E3009676AE /* MapsApplication.xcdatamodeld */,
+				9DA8356D28C8941500B366A2 /* Service */,
+				9DA8356C28C8940800B366A2 /* ViewModel */,
+				9DA8356B28C8940300B366A2 /* View */,
+				9DA8356A28C893FE00B366A2 /* Model */,
+				9DA8355A28C888D700B366A2 /* Main.storyboard */,
+				9DA8355D28C888D800B366A2 /* Assets.xcassets */,
+				9DA8355F28C888D800B366A2 /* LaunchScreen.storyboard */,
+				9DA8356228C888D800B366A2 /* Info.plist */,
 			);
-			path = MapsApplication;
+			path = NewsProject;
+			sourceTree = "<group>";
+		};
+		9DA8356A28C893FE00B366A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8356E28C8944800B366A2 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA8356B28C8940300B366A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8355428C888D700B366A2 /* AppDelegate.swift */,
+				9DA8356828C88A1A00B366A2 /* NewsCell.swift */,
+				9DA8355628C888D700B366A2 /* SceneDelegate.swift */,
+				9DA8355828C888D700B366A2 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DA8356C28C8940800B366A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8357228C89C7700B366A2 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DA8356D28C8941500B366A2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8357028C8975C00B366A2 /* WebService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DA5583528C269E3009676AE /* MapsApplication */ = {
+		9DA8355028C888D700B366A2 /* NewsProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA5584D28C269E7009676AE /* Build configuration list for PBXNativeTarget "MapsApplication" */;
+			buildConfigurationList = 9DA8356528C888D800B366A2 /* Build configuration list for PBXNativeTarget "NewsProject" */;
 			buildPhases = (
-				9DA5583228C269E3009676AE /* Sources */,
-				9DA5583328C269E3009676AE /* Frameworks */,
-				9DA5583428C269E3009676AE /* Resources */,
+				9DA8354D28C888D700B366A2 /* Sources */,
+				9DA8354E28C888D700B366A2 /* Frameworks */,
+				9DA8354F28C888D700B366A2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MapsApplication;
-			productName = MapsApplication;
-			productReference = 9DA5583628C269E3009676AE /* MapsApplication.app */;
+			name = NewsProject;
+			productName = NewsProject;
+			productReference = 9DA8355128C888D700B366A2 /* NewsProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9DA5582E28C269E3009676AE /* Project object */ = {
+		9DA8354928C888D700B366A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					9DA5583528C269E3009676AE = {
+					9DA8355028C888D700B366A2 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 9DA5583128C269E3009676AE /* Build configuration list for PBXProject "MapsApplication" */;
+			buildConfigurationList = 9DA8354C28C888D700B366A2 /* Build configuration list for PBXProject "NewsProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +154,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 9DA5582D28C269E3009676AE;
-			productRefGroup = 9DA5583728C269E3009676AE /* Products */;
+			mainGroup = 9DA8354828C888D700B366A2;
+			productRefGroup = 9DA8355228C888D700B366A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DA5583528C269E3009676AE /* MapsApplication */,
+				9DA8355028C888D700B366A2 /* NewsProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9DA5583428C269E3009676AE /* Resources */ = {
+		9DA8354F28C888D700B366A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA5584928C269E7009676AE /* LaunchScreen.storyboard in Resources */,
-				9DA5584628C269E7009676AE /* Assets.xcassets in Resources */,
-				9DA5584128C269E3009676AE /* Main.storyboard in Resources */,
+				9DA8356128C888D800B366A2 /* LaunchScreen.storyboard in Resources */,
+				9DA8355E28C888D800B366A2 /* Assets.xcassets in Resources */,
+				9DA8355C28C888D700B366A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DA5583228C269E3009676AE /* Sources */ = {
+		9DA8354D28C888D700B366A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA5583E28C269E3009676AE /* MapViewController.swift in Sources */,
-				9DA5584428C269E3009676AE /* MapsApplication.xcdatamodeld in Sources */,
-				9DA5583A28C269E3009676AE /* AppDelegate.swift in Sources */,
-				9D20E03828C50F2100FE4330 /* TableViewController.swift in Sources */,
-				9DA5583C28C269E3009676AE /* SceneDelegate.swift in Sources */,
+				9DA8357128C8975C00B366A2 /* WebService.swift in Sources */,
+				9DA8355928C888D700B366A2 /* ViewController.swift in Sources */,
+				9DA8355528C888D700B366A2 /* AppDelegate.swift in Sources */,
+				9DA8356928C88A1A00B366A2 /* NewsCell.swift in Sources */,
+				9DA8357328C89C7700B366A2 /* NewsViewModel.swift in Sources */,
+				9DA8356F28C8944800B366A2 /* News.swift in Sources */,
+				9DA8355728C888D700B366A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DA5583F28C269E3009676AE /* Main.storyboard */ = {
+		9DA8355A28C888D700B366A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DA5584028C269E3009676AE /* Base */,
+				9DA8355B28C888D700B366A2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9DA5584728C269E7009676AE /* LaunchScreen.storyboard */ = {
+		9DA8355F28C888D800B366A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DA5584828C269E7009676AE /* Base */,
+				9DA8356028C888D800B366A2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +214,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9DA5584B28C269E7009676AE /* Debug */ = {
+		9DA8356328C888D800B366A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		9DA5584C28C269E7009676AE /* Release */ = {
+		9DA8356428C888D800B366A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,15 +328,16 @@
 			};
 			name = Release;
 		};
-		9DA5584E28C269E7009676AE /* Debug */ = {
+		9DA8356628C888D800B366A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B76Q6KN467;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MapsApplication/Info.plist;
+				INFOPLIST_FILE = NewsProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -307,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.omerfkzr.MapsApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerfkzr.NewsProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,15 +356,16 @@
 			};
 			name = Debug;
 		};
-		9DA5584F28C269E7009676AE /* Release */ = {
+		9DA8356728C888D800B366A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B76Q6KN467;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MapsApplication/Info.plist;
+				INFOPLIST_FILE = NewsProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.omerfkzr.MapsApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerfkzr.NewsProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,38 +387,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DA5583128C269E3009676AE /* Build configuration list for PBXProject "MapsApplication" */ = {
+		9DA8354C28C888D700B366A2 /* Build configuration list for PBXProject "NewsProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DA5584B28C269E7009676AE /* Debug */,
-				9DA5584C28C269E7009676AE /* Release */,
+				9DA8356328C888D800B366A2 /* Debug */,
+				9DA8356428C888D800B366A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA5584D28C269E7009676AE /* Build configuration list for PBXNativeTarget "MapsApplication" */ = {
+		9DA8356528C888D800B366A2 /* Build configuration list for PBXNativeTarget "NewsProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DA5584E28C269E7009676AE /* Debug */,
-				9DA5584F28C269E7009676AE /* Release */,
+				9DA8356628C888D800B366A2 /* Debug */,
+				9DA8356728C888D800B366A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9DA5584228C269E3009676AE /* MapsApplication.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9DA5584328C269E3009676AE /* MapsApplication.xcdatamodel */,
-			);
-			currentVersion = 9DA5584328C269E3009676AE /* MapsApplication.xcdatamodel */;
-			path = MapsApplication.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 9DA5582E28C269E3009676AE /* Project object */;
+	rootObject = 9DA8354928C888D700B366A2 /* Project object */;
 }
